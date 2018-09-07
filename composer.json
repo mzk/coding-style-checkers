@@ -1,0 +1,26 @@
+{
+    "name": "olda/citicash-cs",
+    "authors": [
+        {
+            "name": "Olda Salek",
+            "email": "mzk@mozektevidi.net"
+        }
+    ],
+    "minimum-stability": "dev",
+    "repositories": [
+        {
+            "type": "git",
+            "url": "https://github.com/mzk/PHP-Parallel-Lint.git"
+        }
+    ],
+    "require": {
+        "jakub-onderka/php-parallel-lint": "dev-master",
+        "phpstan/phpstan": "^0.10.0@dev",
+        "slevomat/coding-standard": "dev-master",
+        "phpstan/phpstan-strict-rules": "^0.10.0@dev",
+        "phpstan/phpstan-doctrine": "^0.10.0@dev",
+        "phpstan/phpstan-mockery": "^0.10.0@dev",
+        "phpstan/phpstan-nette": "^0.10.0@dev",
+        "thecodingmachine/phpstan-strict-rules": "^0.10.0@dev"
+    }
+}
