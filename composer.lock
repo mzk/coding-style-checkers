@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "1c13a294b3fe54827f82da8804b5b9ed",
+    "content-hash": "b8b23c9115866092732a1169d2679a63",
     "packages": [
         {
             "name": "composer/xdebug-handler",
@@ -539,20 +539,20 @@
         },
         {
             "name": "nette/utils",
-            "version": "dev-master",
+            "version": "v2.5.x-dev",
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "89191169192d7a02311d09847e81c3108d8b9b1f"
+                "reference": "78bb80c3ab680962d3326794b1fcbd01679a6aa1"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/89191169192d7a02311d09847e81c3108d8b9b1f",
-                "reference": "89191169192d7a02311d09847e81c3108d8b9b1f",
+                "url": "https://api.github.com/repos/nette/utils/zipball/78bb80c3ab680962d3326794b1fcbd01679a6aa1",
+                "reference": "78bb80c3ab680962d3326794b1fcbd01679a6aa1",
                 "shasum": ""
             },
             "require": {
-                "php": ">=7.1"
+                "php": ">=5.6.0"
             },
             "conflict": {
                 "nette/nette": "<2.2"
@@ -564,7 +564,7 @@
             "suggest": {
                 "ext-gd": "to use Image",
                 "ext-iconv": "to use Strings::webalize() and toAscii()",
-                "ext-intl": "to use Strings::webalize(), toAscii(), normalize() and compare()",
+                "ext-intl": "for script transliteration in Strings::webalize() and toAscii()",
                 "ext-json": "to use Nette\\Utils\\Json",
                 "ext-mbstring": "to use Strings::lower() etc...",
                 "ext-xml": "to use Strings::length() etc. when mbstring is not available"
@@ -572,12 +572,15 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "3.0-dev"
+                    "dev-master": "2.5-dev"
                 }
             },
             "autoload": {
                 "classmap": [
                     "src/"
+                ],
+                "files": [
+                    "src/loader.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -614,7 +617,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2018-08-30T22:32:45+00:00"
+            "time": "2018-08-30T22:41:37+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -1480,7 +1483,8 @@
         "phpstan/phpstan-doctrine": 20,
         "phpstan/phpstan-mockery": 20,
         "phpstan/phpstan-nette": 20,
-        "thecodingmachine/phpstan-strict-rules": 20
+        "thecodingmachine/phpstan-strict-rules": 20,
+        "nette/utils": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,

@@ -22,7 +22,8 @@
         "phpstan/phpstan-doctrine": "^0.10.0@dev",
         "phpstan/phpstan-mockery": "^0.10.0@dev",
         "phpstan/phpstan-nette": "^0.10.0@dev",
-        "thecodingmachine/phpstan-strict-rules": "^0.10.0@dev"
+        "thecodingmachine/phpstan-strict-rules": "^0.10.0@dev",
+        "nette/utils": "^2.5@dev"
     },
     "config": {
         "platform": {
