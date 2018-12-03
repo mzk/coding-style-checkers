@@ -16,7 +16,7 @@
     "require": {
         "php": ">=7.2",
         "jakub-onderka/php-parallel-lint": "dev-master",
-        "phpstan/phpstan": "^0.10.0@dev",
+        "phpstan/phpstan": "^0.10.5@dev",
         "slevomat/coding-standard": "dev-master",
         "phpstan/phpstan-strict-rules": "^0.10.0@dev",
         "phpstan/phpstan-doctrine": "^0.10.0@dev",

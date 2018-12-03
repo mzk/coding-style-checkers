@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "b8b23c9115866092732a1169d2679a63",
+    "content-hash": "4b7efc8778f0f317e218764ff45fc120",
     "packages": [
         {
             "name": "composer/xdebug-handler",
-            "version": "1.3.0",
+            "version": "1.3.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/composer/xdebug-handler.git",
-                "reference": "b8e9745fb9b06ea6664d8872c4505fb16df4611c"
+                "reference": "dc523135366eb68f22268d069ea7749486458562"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/b8e9745fb9b06ea6664d8872c4505fb16df4611c",
-                "reference": "b8e9745fb9b06ea6664d8872c4505fb16df4611c",
+                "url": "https://api.github.com/repos/composer/xdebug-handler/zipball/dc523135366eb68f22268d069ea7749486458562",
+                "reference": "dc523135366eb68f22268d069ea7749486458562",
                 "shasum": ""
             },
             "require": {
@@ -48,7 +48,7 @@
                 "Xdebug",
                 "performance"
             ],
-            "time": "2018-08-31T19:07:57+00:00"
+            "time": "2018-11-29T10:59:02+00:00"
         },
         {
             "name": "jakub-onderka/php-parallel-lint",
@@ -149,12 +149,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/bootstrap.git",
-                "reference": "13abf41b89129a83dc56ed2a74f1f34f227be299"
+                "reference": "5c323e105b16e80881648cf77fac363509e4fbf8"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/bootstrap/zipball/13abf41b89129a83dc56ed2a74f1f34f227be299",
-                "reference": "13abf41b89129a83dc56ed2a74f1f34f227be299",
+                "url": "https://api.github.com/repos/nette/bootstrap/zipball/5c323e105b16e80881648cf77fac363509e4fbf8",
+                "reference": "5c323e105b16e80881648cf77fac363509e4fbf8",
                 "shasum": ""
             },
             "require": {
@@ -217,7 +217,7 @@
                 "configurator",
                 "nette"
             ],
-            "time": "2018-07-28T11:38:43+00:00"
+            "time": "2018-11-04T13:05:13+00:00"
         },
         {
             "name": "nette/di",
@@ -225,18 +225,18 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/di.git",
-                "reference": "261b5dd52d41a42bf287e2690dcc21b8d61595e6"
+                "reference": "ec380f1ad92de458993d5073e0ba935edad63198"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/di/zipball/261b5dd52d41a42bf287e2690dcc21b8d61595e6",
-                "reference": "261b5dd52d41a42bf287e2690dcc21b8d61595e6",
+                "url": "https://api.github.com/repos/nette/di/zipball/ec380f1ad92de458993d5073e0ba935edad63198",
+                "reference": "ec380f1ad92de458993d5073e0ba935edad63198",
                 "shasum": ""
             },
             "require": {
                 "ext-tokenizer": "*",
                 "nette/neon": "^2.3.3 || ~3.0.0",
-                "nette/php-generator": "^3.0",
+                "nette/php-generator": "^3.2",
                 "nette/utils": "^2.5 || ~3.0.0",
                 "php": ">=7.1"
             },
@@ -257,6 +257,9 @@
             "autoload": {
                 "classmap": [
                     "src/"
+                ],
+                "files": [
+                    "src/compatibility.php"
                 ]
             },
             "notification-url": "https://packagist.org/downloads/",
@@ -286,7 +289,7 @@
                 "nette",
                 "static"
             ],
-            "time": "2018-08-22T09:05:00+00:00"
+            "time": "2018-11-30T12:31:59+00:00"
         },
         {
             "name": "nette/finder",
@@ -294,17 +297,17 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/finder.git",
-                "reference": "6d85a465781fac5a111980288b899603e326449b"
+                "reference": "6e8922ee070fd9fa514141af2edf3c8b7853f410"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/finder/zipball/6d85a465781fac5a111980288b899603e326449b",
-                "reference": "6d85a465781fac5a111980288b899603e326449b",
+                "url": "https://api.github.com/repos/nette/finder/zipball/6e8922ee070fd9fa514141af2edf3c8b7853f410",
+                "reference": "6e8922ee070fd9fa514141af2edf3c8b7853f410",
                 "shasum": ""
             },
             "require": {
                 "nette/utils": "^2.4 || ~3.0.0",
-                "php": ">=7.0"
+                "php": ">=7.1"
             },
             "conflict": {
                 "nette/nette": "<2.2"
@@ -348,7 +351,7 @@
                 "iterator",
                 "nette"
             ],
-            "time": "2018-09-05T19:47:24+00:00"
+            "time": "2018-10-18T22:57:48+00:00"
         },
         {
             "name": "nette/neon",
@@ -356,12 +359,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/neon.git",
-                "reference": "e5549839525f7709260bd456f16ef05c3c98fd0d"
+                "reference": "5938d41bd8a84850c95a5c621b1f319c3d8dd92b"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/neon/zipball/e5549839525f7709260bd456f16ef05c3c98fd0d",
-                "reference": "e5549839525f7709260bd456f16ef05c3c98fd0d",
+                "url": "https://api.github.com/repos/nette/neon/zipball/5938d41bd8a84850c95a5c621b1f319c3d8dd92b",
+                "reference": "5938d41bd8a84850c95a5c621b1f319c3d8dd92b",
                 "shasum": ""
             },
             "require": {
@@ -409,7 +412,7 @@
                 "nette",
                 "yaml"
             ],
-            "time": "2018-07-28T11:43:51+00:00"
+            "time": "2018-10-18T22:59:18+00:00"
         },
         {
             "name": "nette/php-generator",
@@ -417,12 +420,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/php-generator.git",
-                "reference": "d36064d45fad4195f3220ff8c656b7d50cb80333"
+                "reference": "9de4e093a130f7a1bd175198799ebc0efbac6924"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/php-generator/zipball/d36064d45fad4195f3220ff8c656b7d50cb80333",
-                "reference": "d36064d45fad4195f3220ff8c656b7d50cb80333",
+                "url": "https://api.github.com/repos/nette/php-generator/zipball/9de4e093a130f7a1bd175198799ebc0efbac6924",
+                "reference": "9de4e093a130f7a1bd175198799ebc0efbac6924",
                 "shasum": ""
             },
             "require": {
@@ -471,7 +474,7 @@
                 "php",
                 "scaffolding"
             ],
-            "time": "2018-08-29T17:24:49+00:00"
+            "time": "2018-11-27T19:00:14+00:00"
         },
         {
             "name": "nette/robot-loader",
@@ -479,12 +482,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/robot-loader.git",
-                "reference": "fc76c70e740b10f091e502b2e393d0be912f38d4"
+                "reference": "62b91f300c460e40df8c6ddb6be73e818aec064f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/robot-loader/zipball/fc76c70e740b10f091e502b2e393d0be912f38d4",
-                "reference": "fc76c70e740b10f091e502b2e393d0be912f38d4",
+                "url": "https://api.github.com/repos/nette/robot-loader/zipball/62b91f300c460e40df8c6ddb6be73e818aec064f",
+                "reference": "62b91f300c460e40df8c6ddb6be73e818aec064f",
                 "shasum": ""
             },
             "require": {
@@ -536,7 +539,7 @@
                 "nette",
                 "trait"
             ],
-            "time": "2018-08-13T14:19:06+00:00"
+            "time": "2018-10-18T22:59:39+00:00"
         },
         {
             "name": "nette/utils",
@@ -544,12 +547,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nette/utils.git",
-                "reference": "78bb80c3ab680962d3326794b1fcbd01679a6aa1"
+                "reference": "186de172a5ce1ec6aac80c2252044789584497c5"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nette/utils/zipball/78bb80c3ab680962d3326794b1fcbd01679a6aa1",
-                "reference": "78bb80c3ab680962d3326794b1fcbd01679a6aa1",
+                "url": "https://api.github.com/repos/nette/utils/zipball/186de172a5ce1ec6aac80c2252044789584497c5",
+                "reference": "186de172a5ce1ec6aac80c2252044789584497c5",
                 "shasum": ""
             },
             "require": {
@@ -618,7 +621,7 @@
                 "utility",
                 "validation"
             ],
-            "time": "2018-08-30T22:41:37+00:00"
+            "time": "2018-10-30T16:15:21+00:00"
         },
         {
             "name": "nikic/php-parser",
@@ -626,12 +629,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/nikic/PHP-Parser.git",
-                "reference": "d7d581c1d2e01430cbae65e28b99aee3fe7c1cf3"
+                "reference": "f42bbc2403ebc1178d9ae4f1029c0e8ddc6aa451"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/d7d581c1d2e01430cbae65e28b99aee3fe7c1cf3",
-                "reference": "d7d581c1d2e01430cbae65e28b99aee3fe7c1cf3",
+                "url": "https://api.github.com/repos/nikic/PHP-Parser/zipball/f42bbc2403ebc1178d9ae4f1029c0e8ddc6aa451",
+                "reference": "f42bbc2403ebc1178d9ae4f1029c0e8ddc6aa451",
                 "shasum": ""
             },
             "require": {
@@ -647,7 +650,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.0-dev"
+                    "dev-master": "4.1-dev"
                 }
             },
             "autoload": {
@@ -669,7 +672,7 @@
                 "parser",
                 "php"
             ],
-            "time": "2018-08-27T22:49:42+00:00"
+            "time": "2018-11-30T10:00:48+00:00"
         },
         {
             "name": "ocramius/package-versions",
@@ -768,16 +771,16 @@
         },
         {
             "name": "phpstan/phpstan",
-            "version": "dev-master",
+            "version": "0.10.5",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan.git",
-                "reference": "b66cba9325bd50a4cb37cfa344a0628982a15a82"
+                "reference": "c6a8cd1fe08a23b9d101a55ffa9ff6b91d71ef5d"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/b66cba9325bd50a4cb37cfa344a0628982a15a82",
-                "reference": "b66cba9325bd50a4cb37cfa344a0628982a15a82",
+                "url": "https://api.github.com/repos/phpstan/phpstan/zipball/c6a8cd1fe08a23b9d101a55ffa9ff6b91d71ef5d",
+                "reference": "c6a8cd1fe08a23b9d101a55ffa9ff6b91d71ef5d",
                 "shasum": ""
             },
             "require": {
@@ -793,9 +796,6 @@
                 "symfony/console": "~3.2 || ~4.0",
                 "symfony/finder": "~3.2 || ~4.0"
             },
-            "conflict": {
-                "symfony/console": "3.4.16 || 4.1.5"
-            },
             "require-dev": {
                 "brianium/paratest": "^2.0",
                 "consistence/coding-standard": "^3.5",
@@ -805,7 +805,7 @@
                 "ext-mysqli": "*",
                 "ext-zip": "*",
                 "jakub-onderka/php-parallel-lint": "^1.0",
-                "localheinz/composer-normalize": "~0.8.0",
+                "localheinz/composer-normalize": "~0.9.0",
                 "phing/phing": "^2.16.0",
                 "phpstan/phpstan-deprecation-rules": "^0.10.2",
                 "phpstan/phpstan-php-parser": "^0.10",
@@ -836,11 +836,11 @@
                 "MIT"
             ],
             "description": "PHPStan - PHP Static Analysis Tool",
-            "time": "2018-09-06T15:27:30+00:00"
+            "time": "2018-10-20T17:24:55+00:00"
         },
         {
             "name": "phpstan/phpstan-doctrine",
-            "version": "dev-master",
+            "version": "0.10",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-doctrine.git",
@@ -895,16 +895,16 @@
         },
         {
             "name": "phpstan/phpstan-mockery",
-            "version": "dev-master",
+            "version": "0.10.2",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-mockery.git",
-                "reference": "2a30b98708197c4439e0ec5c2ecf9451ffaed85b"
+                "reference": "14d568b6b56c957c9ae5330603303a367b21f0e9"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/2a30b98708197c4439e0ec5c2ecf9451ffaed85b",
-                "reference": "2a30b98708197c4439e0ec5c2ecf9451ffaed85b",
+                "url": "https://api.github.com/repos/phpstan/phpstan-mockery/zipball/14d568b6b56c957c9ae5330603303a367b21f0e9",
+                "reference": "14d568b6b56c957c9ae5330603303a367b21f0e9",
                 "shasum": ""
             },
             "require": {
@@ -940,11 +940,11 @@
                 "MIT"
             ],
             "description": "PHPStan Mockery extension",
-            "time": "2018-08-13T20:17:04+00:00"
+            "time": "2018-09-09T15:22:28+00:00"
         },
         {
             "name": "phpstan/phpstan-nette",
-            "version": "dev-master",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-nette.git",
@@ -1007,7 +1007,7 @@
         },
         {
             "name": "phpstan/phpstan-strict-rules",
-            "version": "dev-master",
+            "version": "0.10.1",
             "source": {
                 "type": "git",
                 "url": "https://github.com/phpstan/phpstan-strict-rules.git",
@@ -1057,12 +1057,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/php-fig/log.git",
-                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda"
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/php-fig/log/zipball/3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
-                "reference": "3490ba5925e6dcbe6de950c5c6b8dce9f6e96eda",
+                "url": "https://api.github.com/repos/php-fig/log/zipball/c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
+                "reference": "c4421fcac1edd5a324fda73e589a5cf96e52ffd0",
                 "shasum": ""
             },
             "require": {
@@ -1071,7 +1071,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "1.0.x-dev"
+                    "dev-master": "1.1.x-dev"
                 }
             },
             "autoload": {
@@ -1096,7 +1096,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2018-04-03T15:59:15+00:00"
+            "time": "2018-11-21T13:42:00+00:00"
         },
         {
             "name": "slevomat/coding-standard",
@@ -1143,12 +1143,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/squizlabs/PHP_CodeSniffer.git",
-                "reference": "e64a980f7bc5a68a4d720e3e74f68d3997bf919e"
+                "reference": "b53f64e10e41aa754ffa7c11999af1881e6c1780"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/e64a980f7bc5a68a4d720e3e74f68d3997bf919e",
-                "reference": "e64a980f7bc5a68a4d720e3e74f68d3997bf919e",
+                "url": "https://api.github.com/repos/squizlabs/PHP_CodeSniffer/zipball/b53f64e10e41aa754ffa7c11999af1881e6c1780",
+                "reference": "b53f64e10e41aa754ffa7c11999af1881e6c1780",
                 "shasum": ""
             },
             "require": {
@@ -1186,7 +1186,7 @@
                 "phpcs",
                 "standards"
             ],
-            "time": "2018-09-05T04:38:16+00:00"
+            "time": "2018-11-27T02:04:54+00:00"
         },
         {
             "name": "symfony/console",
@@ -1194,12 +1194,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/console.git",
-                "reference": "3f4f37d42d6bf7a5707b0c16fc022d176cca6d0f"
+                "reference": "f0ccd811fe34dd4d01502614e7361b93594994c3"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/console/zipball/3f4f37d42d6bf7a5707b0c16fc022d176cca6d0f",
-                "reference": "3f4f37d42d6bf7a5707b0c16fc022d176cca6d0f",
+                "url": "https://api.github.com/repos/symfony/console/zipball/f0ccd811fe34dd4d01502614e7361b93594994c3",
+                "reference": "f0ccd811fe34dd4d01502614e7361b93594994c3",
                 "shasum": ""
             },
             "require": {
@@ -1228,7 +1228,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -1255,7 +1255,7 @@
             ],
             "description": "Symfony Console Component",
             "homepage": "https://symfony.com",
-            "time": "2018-09-04T20:10:18+00:00"
+            "time": "2018-11-27T07:40:59+00:00"
         },
         {
             "name": "symfony/contracts",
@@ -1263,23 +1263,27 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/contracts.git",
-                "reference": "d4240ac5965db1fb41a6604410804cae05ff8b72"
+                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/contracts/zipball/d4240ac5965db1fb41a6604410804cae05ff8b72",
-                "reference": "d4240ac5965db1fb41a6604410804cae05ff8b72",
+                "url": "https://api.github.com/repos/symfony/contracts/zipball/3edf0ab943d1985a356721952cba36ff31bd6e5f",
+                "reference": "3edf0ab943d1985a356721952cba36ff31bd6e5f",
                 "shasum": ""
             },
             "require": {
                 "php": "^7.1.3"
             },
             "require-dev": {
+                "psr/cache": "^1.0",
                 "psr/container": "^1.0"
             },
             "suggest": {
                 "psr/cache": "When using the Cache contracts",
-                "psr/container": "When using the Service contracts"
+                "psr/container": "When using the Service contracts",
+                "symfony/cache-contracts-implementation": "",
+                "symfony/service-contracts-implementation": "",
+                "symfony/translation-contracts-implementation": ""
             },
             "type": "library",
             "extra": {
@@ -1319,7 +1323,7 @@
                 "interoperability",
                 "standards"
             ],
-            "time": "2018-09-04T08:20:02+00:00"
+            "time": "2018-11-24T09:35:08+00:00"
         },
         {
             "name": "symfony/finder",
@@ -1327,12 +1331,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/finder.git",
-                "reference": "faec028be9c4992e92381850ae5751dff5edea78"
+                "reference": "047be7e3450e5460f14c4a42a02c9811e2eda2cd"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/finder/zipball/faec028be9c4992e92381850ae5751dff5edea78",
-                "reference": "faec028be9c4992e92381850ae5751dff5edea78",
+                "url": "https://api.github.com/repos/symfony/finder/zipball/047be7e3450e5460f14c4a42a02c9811e2eda2cd",
+                "reference": "047be7e3450e5460f14c4a42a02c9811e2eda2cd",
                 "shasum": ""
             },
             "require": {
@@ -1341,7 +1345,7 @@
             "type": "library",
             "extra": {
                 "branch-alias": {
-                    "dev-master": "4.2-dev"
+                    "dev-master": "4.3-dev"
                 }
             },
             "autoload": {
@@ -1368,20 +1372,20 @@
             ],
             "description": "Symfony Finder Component",
             "homepage": "https://symfony.com",
-            "time": "2018-09-05T17:51:25+00:00"
+            "time": "2018-11-26T16:19:01+00:00"
         },
         {
             "name": "symfony/polyfill-mbstring",
-            "version": "dev-master",
+            "version": "v1.10.0",
             "source": {
                 "type": "git",
                 "url": "https://github.com/symfony/polyfill-mbstring.git",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8"
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/d0cd638f4634c16d8df4508e847f14e9e43168b8",
-                "reference": "d0cd638f4634c16d8df4508e847f14e9e43168b8",
+                "url": "https://api.github.com/repos/symfony/polyfill-mbstring/zipball/c79c051f5b3a46be09205c73b80b346e4153e494",
+                "reference": "c79c051f5b3a46be09205c73b80b346e4153e494",
                 "shasum": ""
             },
             "require": {
@@ -1427,7 +1431,7 @@
                 "portable",
                 "shim"
             ],
-            "time": "2018-08-06T14:22:27+00:00"
+            "time": "2018-09-21T13:07:52+00:00"
         },
         {
             "name": "thecodingmachine/phpstan-strict-rules",
@@ -1435,12 +1439,12 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/thecodingmachine/phpstan-strict-rules.git",
-                "reference": "4171d4426cd6289ae9231061aa0e39a09c6e3133"
+                "reference": "bf15df9169b3909ad5eb3b7825b70e793c8b4520"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/thecodingmachine/phpstan-strict-rules/zipball/4171d4426cd6289ae9231061aa0e39a09c6e3133",
-                "reference": "4171d4426cd6289ae9231061aa0e39a09c6e3133",
+                "url": "https://api.github.com/repos/thecodingmachine/phpstan-strict-rules/zipball/bf15df9169b3909ad5eb3b7825b70e793c8b4520",
+                "reference": "bf15df9169b3909ad5eb3b7825b70e793c8b4520",
                 "shasum": ""
             },
             "require": {
@@ -1473,7 +1477,7 @@
                 }
             ],
             "description": "A set of additional rules for PHPStan based on best practices followed at TheCodingMachine",
-            "time": "2018-07-06T12:40:23+00:00"
+            "time": "2018-10-30T10:43:52+00:00"
         }
     ],
     "packages-dev": [],
