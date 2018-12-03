@@ -56,7 +56,7 @@
             "source": {
                 "type": "git",
                 "url": "https://github.com/mzk/PHP-Parallel-Lint.git",
-                "reference": "36a02d5518e18453e122803f14eea9637cb82a9a"
+                "reference": "a08908b32810ef6e3c500069ab2613763dbdf949"
             },
             "require": {
                 "ext-json": "*",
@@ -90,7 +90,7 @@
             ],
             "description": "This tool check syntax of PHP files about 20x faster than serial check.",
             "homepage": "https://github.com/JakubOnderka/PHP-Parallel-Lint",
-            "time": "2018-10-01T18:07:01+00:00"
+            "time": "2018-12-03T13:11:39+00:00"
         },
         {
             "name": "jean85/pretty-package-versions",
